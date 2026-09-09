@@ -14,4 +14,10 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+let nb= 29;
+let premie ="true";
+for(let i = 2 ; i<=28 ;i++){
+    if(nb % i==0)
+        premie=false;}
+    if (premie){
+ console.log("29 est premier");}

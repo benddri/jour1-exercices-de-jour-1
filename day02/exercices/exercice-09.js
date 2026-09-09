@@ -15,7 +15,17 @@
  * ▶️ Commande : node day02/exercices/exercice-09.js
  */
 'use strict';
-
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+for(let i=1 ; i<=50 ; i++)
+    if(i % 3 === 0){
+        console.log("fizz");}
+    else if(i % 5===0)
+        {
+        console.log("buzz");}
+
+    else if(i % 3 === 0 && i % 5 === 0){
+        console.log("fizzbuzz")}
+       
+    else{console.log(i)  ; }
+    
