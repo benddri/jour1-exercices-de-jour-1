@@ -14,7 +14,6 @@
  * ▶️ Commande : node day01/exercices/exercice-12.js
  */
 'use strict';
-
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 let anne =2024;
