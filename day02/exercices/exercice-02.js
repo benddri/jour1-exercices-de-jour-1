@@ -15,5 +15,7 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 for(let i=0 ;i<=20 ; i+=2){
-    console.log(i)
+    if(i%2===0){
+        console.log("pair")
+    }else{ console.log("impaire")}
 }
