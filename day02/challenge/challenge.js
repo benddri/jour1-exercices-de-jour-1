@@ -21,4 +21,19 @@
 'use strict';
 
 // Découpe d'abord le problème en petites étapes.
-// TODO: écris ta solution ici.
+let  codeSecret = 739;
+let essai=0;
+let codetest;
+let trouve=false;
+for(let c1=0;c1<=9;c1++){
+    for(let c2=0; c2<=9;c2++){
+        for(let c3=0;c3<=9;c3++){
+       codetest= c1*100+ c2*10+ c3;
+       essai++;
+        if (codetest=== codeSecret){
+                    console.log("Code trouvé : " + codeSecret + " après " + essai + " essai");
+        }
+    }
+    }
+    
+}
