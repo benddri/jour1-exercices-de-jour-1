@@ -8,7 +8,8 @@
  * Aide : consulte ../02-guides.md seulement si tu bloques.
  */
 'use strict';
-function saluer(){
-    return("bonjour")
-}
+function saluer(nom) {
+return "bonjoure,"+nom+ "!";
+ }
+console.log(saluer("fatima"));
 
