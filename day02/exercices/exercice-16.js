@@ -27,7 +27,7 @@ for (let i = 1; i <= 5; i++) {
         ligne += " ";
     }
 
-    for (let j = 1; j <= 2 * i - 1; j++) {
+    for (let x = 1; x <= 2 * i -1; x++) {
         ligne += "*";
     }
 
