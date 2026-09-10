@@ -20,4 +20,16 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
+for (let i = 1; i <= 5; i++) {
+    let ligne = "";
+    
+    for (let j = 1; j <= 5 - i; j++) {
+        ligne += " ";
+    }
 
+    for (let j = 1; j <= 2 * i - 1; j++) {
+        ligne += "*";
+    }
+
+    console.log(ligne);
+}
