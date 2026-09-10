@@ -14,4 +14,14 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+/*
+ * 🎯 MISSION
+ * Affichez tous les nombres pairs entre 0 et 20. (Astuce : incrémentez de 2 en 2, ou utilisez un if avec le modulo %).*/
+function  calculerFactorielle(n){
+   let fact=1;
+for(let i =1 ;i<=6 ;i++){
+     fact= fact *i;
+     console.log(fact);
+    }return n
+}
+console.log(calculerFactorielle());

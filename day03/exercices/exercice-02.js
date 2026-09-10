@@ -14,6 +14,6 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-function flecheemultip(a,b){
-    return a*b
-}console.log(flecheemultip(5,12))
+const flecheemultip=(a,b)=>
+  {  return a*b }
+console.log(flecheemultip(5,12));
