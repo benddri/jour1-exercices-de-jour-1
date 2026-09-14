@@ -16,7 +16,21 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne. 
-
+function addition(a,b){
+   return a+b;
+}function multiple(a,b){
+    return a*b;
+}
+function soustraire(a,b){
+   return a-b;
+}
+function divise(a,b){
+    if (b!==0&&b>a){
+        return a/b;
+    }else{
+        return("impossible")
+    }
+}
 function calculatrice(a,b,signe){
     switch(signe){
         case "+":
@@ -31,4 +45,4 @@ function calculatrice(a,b,signe){
                         return nuull;
                     }
 }
-console.log(calculatrice(3,4,"+"));
+console.log(calculatrice(3,0,"-"));
