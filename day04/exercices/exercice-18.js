@@ -14,4 +14,7 @@
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
-// TODO: écris ta solution ici.
+const tabdeuxdemonsion=[[1,2],[3,5],[5,6]]
+let tabdemonsion=tabdeuxdemonsion.flat()
+console.log(tabdemonsion)
+
